@@ -1,0 +1,25 @@
+.main_container{
+    margin-top: 70px;
+}
+
+.main_container .btn{
+    display: block !important;
+    width: 100%;
+    font-size: 1.3rem !important;
+    padding: 10px  ;
+    transition: all .3s linear;
+} 
+.main_container .btn:hover{
+    box-shadow: 10px 10px 15px rgba(0,0,0,.5);
+    transform: translate(-5px, -5px);
+}
+
+.main_container .btn.btn_active{
+    box-shadow: 10px 10px 15px rgba(0,0,0,.5);
+    transform: translate(-5px, -5px);
+}
+
+#time-count{
+    margin-top: 50px;
+    font-size: 7em;
+}
